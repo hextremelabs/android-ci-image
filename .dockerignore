@@ -1,0 +1,3 @@
+# No COPY in the Dockerfile, so the build context can be empty. Adding a COPY means adding a
+# matching negation below, e.g. !smoke.sh
+**
